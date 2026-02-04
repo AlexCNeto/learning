@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex's Portfolio</title>
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" 
+     rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+   <div class="layout">
+   <!--Nav bar-->
+   <aside class="sidebar" id="sidebar">
+     <div class="sidebar__inner" > 
+        <a href="#" class="brand" aria-label="Alexandre Cavalcante Logo">   
+            <span>Alex.</span>
+        </a>
+        <nav class="sidebar__nav">
+            <a href="#" class="sidebar__link active">Home</a>
+            <a href="#" class="sidebar__link">About</a>         
+            <a href="#" class="sidebar__link">Services</a>      
+            <a href="#" class="sidebar__link">Works</a>     
+            <a href="#" class="sidebar__link">Education</a>      
+            <a href="#" class="sidebar__link">Contact</a>
+        </nav>
+        <div class="sidebar__social">
+            <a href="https://www.linkedin.com/in/alexandre-neto-08280328a/ "target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/AlexCNeto" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.behance.net/AlexCNeto" target="_blank"><i class="fab fa-behance"></i></a>
+            <a href="https://www.instagram.com/xand3.neto/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="sidebar__footer">
+            Copyright © 2026 Alexandre Cavalcante. <br>All rights reserved.
+     </div>
+   </aside>
+   <button class="mobile-menu" id="MobileMenu" aria-label="Open Menu" aria-expanded="false">
+        <span class="mobile-menu__line"></span>
+        <span class="mobile-menu__line"></span>
+        <span class="mobile-menu__line"></span>
+        <span class="sry-only">Menu</span>
+    </button>
+   
+
+    <main class="main-content">
+        <!--Hero Section-->
+                <section id="home" class="section hero">
+            <div class="hero__background" aria-hidden="true">
+                <span class="hero__orb hero__orb--one" aria-hidden="true"></span>
+                <span class="hero__orb hero__orb--two" aria-hidden="true"></span>
+                <span class="hero__grid"></span>
+            </div>
+            <div class="hero__content" data-animate="fade-right">
+                <p class="section-label">Hello!</p>
+                <h1 class="hero__title">My name is <br><span>Alexandre Cavalcante</span></h1>
+                <p class="hero__subtitle" data-primary="fade up" style="-delay:0.1s;">
+                    Software Engineer Student | UI/UX Enthusiast <br> based in Fortaleza, Brazil.
+                </p>
+             <div class="hero__actions">
+                    <a href="#" class="button button-primary">Let's Talk!<span aria-hidden="true">↩</span></a>
+             </div>
+               <div class="hero__meta">    
+                <div class="hero__meta-item">  
+                <span class="hero__meta-icon">✆</span> 
+                <span>+55(85)98798-7791</span>
+                </div>
+                <div class="hero__meta-item">  
+                <span class="hero__meta-icon">✉</span> 
+                <span>alexnetoc4@gmail.com</span>
+               </div>
+            </div> 
+            </div>
+             <div class="hero__visual">
+                <div class="hero__image-wrapper">   
+                    <img src="images/001.jpg" alt="hero image" class="hero__image">
+                </div>
+            </div>
+            <a href="#" class="hero__scroll">
+                <span class="hero__scroll-label"></span>
+                <span class="hero__scroll-circle">
+                    <div class="hero__scroll-arrows">↑</div>
+                </span>
+            </a>
+        </section>
+
+        <!--About Section-->
+        <section id="about" class="section about">
+            <div class="about__intro">
+                <p class="section-label">Nice to meet you!</p>
+                <h2 class="section-title">That's Me...</h2>
+            </div>
+            <div class="about__content">
+                <div class="about__card">
+                    <img src="images/002.jpg" alt="">
+                </div>
+                <div class="about__details">
+                    <h3>Alexandre Cavalcante Neto</h3>
+                    <p class="about__role">Computer engineer student based in Fortaleza, Ceará.</p>
+                    <p class="about__text">
+                        Hello There! I'm a Enthusiast on tecnology related fields suck as Web Desigh, Programming, Editing and Development. 
+                    </p>
+                    <a href="#" class="button button--ghost">
+                        <span arial-hidden="true">Download CV ➜]</span>
+                    </a>
+                </div>
+                <div class="about__stats">
+                        <div class="about__stat">
+                            <span class="about__stat-value">10+</span>
+                            <span class="about__stat__label">Projects done this year...</span>
+                            <p class="about__stat-text">With a powerfull will of learning and working determinated to to turn your project in a reference and your trust in confidence</p>
+                        </div>
+                        <div class="about__stat">
+                            <span class="about__stat-value">5+</span>
+                            <span class="about__stat__label">Clients delighted...</span>
+                            <p class="about__stat-text">Trusted partnerships which lead to thougtful,satisfying and upscailing digital products.</p>
+                        </div>
+                        <blockquote class="about__quote">
+                            “If there is effort, there is always accomplishment.”  — Kano Jigoro
+                        </blockquote>
+                        <div class="experience">
+                          <div class="experience__content">
+                          <p class="section__label">Experience</p>
+                          <h2 class="section__title">My Experience</h2>
+                           <p class="experience__text">
+                            Hello There! I'm an enthusiast enginner who got some experience on web development, UI/UX engineering and some others relationed areas. I'm really passionate with my work and want to be part of your project.
+                           </p>
+                          <a href="" class="button button--primary">
+                            <span aria-hidden="true">Donwload my Resume ➜]</span>
+                           </a>
+                            <ul class="experience__timeline">
+                              <li>
+                                <span class="experience__time">2026 - Present</span>
+                                <span class="experience__time">Web Developer</span>
+                                <span class="experience__company" data-primary="fade up">Purrfect</span>
+                              </li>
+                            </ul>
+                            </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services Section -->
+         <services id="section" class="section services">
+            <div class="services__header">
+                <p class="section-label">Service</p>
+                <h2 class="section-title">My Specialties</h2>
+            </div>
+            <div class="service-list" data-visual="">
+                <article class="serivice-item service-item--accent">
+                    <div>
+                        <h3>Web Design</h3>
+                    <p>
+                        Customiz a template or craft something from scratch with an immersive library at your disposal.
+                    </p>
+                    </div>
+                <button class="service-item__toggle">
+                    <span>+</span>
+                </button>
+                </article>
+            </div>
+         </services>
+    </main>
+</body>
+</html>
